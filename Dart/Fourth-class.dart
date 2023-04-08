@@ -33,11 +33,24 @@ void main() {
   // print('i\'m Kamrul Hasn');
   // print("I'm Mahmud Hasan");
 
-  String name = "Raihan";
-  String name2 = "Rabia";
-  bool isMale = true;
-  bool isFemale = true;
+  // String name = "Raihan";
+  // String name2 = "Rabia";
+  // bool isMale = true;
+  // bool isFemale = true;
 
-  print("Name : " + name + " \nMale : " + isMale.toString());
-  print("Name : " + name + "\nFeMale : " + isFemale.toString());
+  // print("Name : " + name + " \nMale : " + isMale.toString());
+  // print("Name : " + name + "\nFeMale : " + isFemale.toString());
+
+  // var a = 526;
+  // var b = "DIU";
+  // var c = 3.21;
+  // var d = true;
+
+  //-----------------const and final
+  const number = 26;
+  // number =25;----2nd time can't change this value and this vule need to declare in when get variable
+  final uni = "DIU";
+  final name;
+  name = "Mahmud";
+  //2nd time can't change this value and this you can declare 2nd time
 }
